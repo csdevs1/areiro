@@ -1,5 +1,5 @@
 // Carousel Auto-Cycle
-  $(document).ready(function() {
+ready = (function() {
       $('.carousel').carousel({
           interval: 6000
       })
@@ -24,7 +24,7 @@ window.onresize = function(event) {
 
 /* Sticky heeader */
 
-$(window).scroll(function() {
+scroll = (function() {
     if ($(this).scrollTop() > 1){
         $('#main-nav').addClass("main-nav");
         $("#top-nav").hide(1000);
@@ -41,7 +41,7 @@ $(window).scroll(function() {
 
 /* *************** */ 
 
-$(document).ready(function(){  
+ready2 = (function() {
   
     //how much items per page to show  
     var show_per_page = 1;  
@@ -120,4 +120,12 @@ function go_to_page(page_num){
   
     //update the current page input field  
     $('#current_page').val(page_num);  
-}  
+}
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
+
+$(window).load(ready2);
+$(window).on('page:load', ready2);
+
+$(document).scroll(scroll);
