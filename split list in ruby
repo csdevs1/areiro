@@ -1,0 +1,18 @@
+records = [1, 2, 3, 4, 5, 6 , 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+product = records.length
+
+if product <= 18
+    puts "Do something"
+else
+    var_mod = (product % 18) + 1
+    save_records = records.each_slice(18).to_a
+    num = 0
+    
+    until num >= var_mod
+      puts "<ul>"
+      puts save_records[num]
+      puts "</ul>"
+      num += 1
+    end
+end
