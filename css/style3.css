@@ -78,9 +78,10 @@
     -ms-animation-delay: 6s;
     animation-delay: 6s;
 }
+
 .cb-slideshow li:nth-child(3) span {
     background-image: url(../img/Imagen3.jpg);
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
