@@ -11,6 +11,20 @@
   url('http://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.svg#zocialregular') format('svg');
 }
 
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('fonts/BebasNeue-webfont.woff') format('woff'),
+    url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+    url('fonts/BebasNeue-webfont.svg#BebasNeueRegular')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 .zocial-acrobat:before{content:"\00E3"}.zocial-amazon:before{content:"a"}.zocial-android:before{content:"&"}.zocial-angellist:before{content:"\00D6"}.zocial-aol:before{content:"\""}.zocial-appnet:before{content:"\00E1"}.zocial-appstore:before{content:"A"}.zocial-bitbucket:before{content:"\00E9"}.zocial-bitcoin:before{content:"2"}.zocial-blogger:before{content:"B"}.zocial-buffer:before{content:"\00E5"}.zocial-call:before{content:"7"}.zocial-cal:before{content:"."}.zocial-cart:before{content:"\00C9"}.zocial-chrome:before{content:"["}.zocial-cloudapp:before{content:"c"}.zocial-creativecommons:before{content:"C"}.zocial-delicious:before{content:"#"}.zocial-digg:before{content:";"}.zocial-disqus:before{content:"Q"}.zocial-dribbble:before{content:"D"}.zocial-dropbox:before{content:"d"}.zocial-drupal:before{content:"\00E4"}.zocial-dwolla:before{content:"\00E0"}.zocial-email:before{content:"]"}.zocial-eventasaurus:before{content:"v"}.zocial-eventbrite:before{content:"|"}.zocial-eventful:before{content:"'"}.zocial-evernote:before{content:"E"}.zocial-facebook:before{content:"f"}.zocial-fivehundredpx:before{content:"0"}.zocial-flattr:before{content:"%"}.zocial-flickr:before{content:"F"}.zocial-forrst:before{content:":"}.zocial-foursquare:before{content:"4"}.zocial-github:before{content:"g"}.zocial-gmail:before{content:"m"}.zocial-google:before{content:"G"}.zocial-googleplay:before{content:"h"}.zocial-googleplus:before{content:"+"}.zocial-gowalla:before{content:"@"}.zocial-grooveshark:before{content:"8"}.zocial-guest:before{content:"?"}.zocial-html5:before{content:"5"}.zocial-ie:before{content:"6"}.zocial-instagram:before{content:"\00DC"}.zocial-instapaper:before{content:"I"}.zocial-intensedebate:before{content:"{"}.zocial-itunes:before{content:"i"}.zocial-klout:before{content:"K"}.zocial-lanyrd:before{content:"-"}.zocial-lastfm:before{content:"l"}.zocial-linkedin:before{content:"L"}.zocial-macstore:before{content:"^"}.zocial-meetup:before{content:"M"}.zocial-myspace:before{content:"_"}.zocial-ninetyninedesigns:before{content:"9"}.zocial-openid:before{content:"o"}.zocial-opentable:before{content:"\00C7"}.zocial-paypal:before{content:"$"}.zocial-pinboard:before{content:"n"}.zocial-pinterest:before{content:"1"}.zocial-plancast:before{content:"P"}.zocial-plurk:before{content:"j"}.zocial-pocket:before{content:"\00E7"}.zocial-podcast:before{content:"`"}.zocial-posterous:before{content:"~"}.zocial-print:before{content:"\00D1"}.zocial-quora:before{content:"q"}.zocial-reddit:before{content:">"}.zocial-rss:before{content:"R"}.zocial-scribd:before{content:"}"}.zocial-skype:before{content:"S"}.zocial-smashing:before{content:"*"}.zocial-songkick:before{content:"k"}.zocial-soundcloud:before{content:"s"}.zocial-spotify:before{content:"="}.zocial-statusnet:before{content:"\00E2"}.zocial-steam:before{content:"b"}.zocial-stripe:before{content:"\00A3"}.zocial-stumbleupon:before{content:"/"}.zocial-tumblr:before{content:"t"}.zocial-twitter:before{content:"T"}.zocial-viadeo:before{content:"H"}.zocial-vimeo:before{content:"V"}.zocial-vk:before{content:"N"}.zocial-weibo:before{content:"J"}.zocial-wikipedia:before{content:","}.zocial-windows:before{content:"W"}.zocial-wordpress:before{content:"w"}.zocial-xing:before{content:"X"}.zocial-yahoo:before{content:"Y"}.zocial-yelp:before{content:"y"}.zocial-youtube:before{content:"U"}
 /* ALL THESE */
 
@@ -384,6 +398,7 @@ a{
 #description {
     padding-top: 3em;
     clear: both;
+    font-family: font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
 }
 
 #title {
@@ -398,6 +413,7 @@ a{
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 10px 0px 1px rgba(244,244,244,0.8);
 }
 
 .wrapper-product label {
@@ -465,7 +481,7 @@ a{
     }
     
     #main-nav a {
-        font-size: 1.8em;
+        font-size: 2.3em;
     }
     
     #top-nav a:hover {
@@ -492,7 +508,7 @@ a{
 @media screen and (max-width: 1819px) {
     
     #main-nav a {
-        font-size: 1.67em;
+        font-size: 2.2em;
     }
     
     #main-nav a:hover {
@@ -510,7 +526,7 @@ a{
 @media screen and (max-width: 1680px) {
     
     #main-nav a {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     
     #main-nav a:hover {
@@ -539,7 +555,7 @@ a{
     }
     
     #main-nav a {
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
     
      #main-nav a:hover {
@@ -556,7 +572,7 @@ a{
 
 @media screen and (max-width: 1446px) {
     #top-nav a {
-        font-size: 1em;    
+        font-size: 1.2em;    
     }
     
     #top-nav a:hover {
@@ -568,7 +584,7 @@ a{
     }
     
     #main-nav a {
-        font-size: 1.33em;
+        font-size: 1.7em;
     }
     
     #main-nav a:hover {
@@ -583,9 +599,9 @@ a{
     }
 }
 
-@media screen and (max-width: 1350px) { 
+@media screen and (max-width: 1350px) {
     #main-nav a {
-        font-size: 1.27em;
+        font-size: 1.65em;
     }
     
     #main-nav a:hover {
@@ -602,7 +618,7 @@ a{
 
 @media screen and (max-width: 1278px) {
     #main-nav a {
-        font-size: 1.2em;
+        font-size: 1.6em;
     }
     
     #main-nav a:hover {
@@ -619,7 +635,7 @@ a{
 
 @media screen and (max-width: 1217px) {
     #main-nav a {
-        font-size: 1.15em;
+        font-size: 1.5em;
     }
     
     #main-nav a:hover {
@@ -636,7 +652,7 @@ a{
 
 @media screen and (max-width: 1176px) {
     #top-nav a {
-        font-size: 0.9em;    
+        font-size: 0.9999em;    
     }
     
     #top-nav a:hover {
@@ -649,7 +665,7 @@ a{
     
     
     #main-nav a {
-        font-size: 1.1em;
+        font-size: 1.4em;
     }
     
     #main-nav a:hover {
@@ -666,7 +682,7 @@ a{
 
 @media screen and (max-width: 1126px) {
     #main-nav a {
-        font-size: 1.06em;
+        font-size: 1.4em;
     }
     
     #main-nav a:hover {
@@ -799,24 +815,25 @@ a{
         font-weight: 600;
         text-shadow:  0 5px 10px rgba(0,0,0,0.78);
     }
-
-    #main-nav-small nav ul{
-        margin-left: 40%;
-        text-align: center;
+    
+    #main-nav-small nav ul a{
+        font-size: 1.7em;
     }
     
     #main-nav-small {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
     }
     
     #q-small {
         background: url(../img/search-white.png) no-repeat 10px 6px #444;
+        margin-top: 10px;
         border: 0 none;
         font: bold 12px Arial,Helvetica,Sans-serif;
         color: #d7d7d7;
         width:150px;
-        padding: 6px 15px 6px 35px;
+        padding-right: 15px;
+        padding-bottom: 6px;
+        padding-left: 35px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         border-radius: 20px;
@@ -873,7 +890,6 @@ a{
         font-size: 1.1875em;
         color: #000;
         font-weight: 600;
-        margin-right: 1.633986928%;
     }
     
     .nav a:hover {
@@ -1027,10 +1043,6 @@ a{
         margin-top: 40em;
     }
     
-    #main-nav-small nav ul a{
-        font-size: 1.7em;
-    }
-    
     .cb-slideshow, .cb-slideshow:after {
         height: 38em;
     }
@@ -1071,10 +1083,6 @@ a{
     
     .cb-slideshow, .cb-slideshow:after {
         height: 24.010416667em;
-    }
-    
-    #main-nav-small nav ul a{
-        font-size: 0.986428em;
     }
 }
 
@@ -1169,7 +1177,7 @@ a{
     }
     
    #main-nav-small nav ul a{
-        font-size: 0.9em;
+        font-size: 1em;
     }
 }
 

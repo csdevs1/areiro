@@ -11,10 +11,10 @@ gray: #808080;
 	box-sizing: border-box; 
 }
 
-#content-product ol, ul { 
+#content-product  ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0.7em;;
 } 
 
 /*Patterns*/
