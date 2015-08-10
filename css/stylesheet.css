@@ -393,12 +393,15 @@ a{
     margin-top: 7.1%;
     width: 100%;
     padding-top: 2%;
+    padding-bottom: 3%
 }
 
 #description {
+    color: #555;
+    font-size: 1.259em;
     padding-top: 3em;
     clear: both;
-    font-family: font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #title {
