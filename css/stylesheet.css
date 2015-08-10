@@ -373,6 +373,10 @@ a{
     margin-top: 0;
 }
 
+#content-product p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.09em;
+}
 
 #page_navigation {
     margin-left: auto;
