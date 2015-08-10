@@ -15,7 +15,7 @@ ready = (function() {
   });
 
 window.onresize = function(event) {
-    if( $(window).width() >= 1111) {
+    if( $(window).width() >= 985) {
           $("#top-nav").show();
     } else {
         $("#top-nav").hide();
@@ -30,7 +30,7 @@ scroll = (function() {
         $("#top-nav").hide(1000);
     } else{
         $('#main-nav').removeClass("main-nav");
-        if( $(window).width() >= 1111)
+        if( $(window).width() >= 985)
         {
            $("#top-nav").show(1000);
         } else {
