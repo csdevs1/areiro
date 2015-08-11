@@ -30,7 +30,7 @@
                         </form>
                         <nav class="nav">
                             <ul>
-                                <a href="index.html"><li><i class="fa fa-home"></i> Home</li></a>
+                                <a href="index.php"><li><i class="fa fa-home"></i> Home</li></a>
                                 <a href="#"><li><i class="fa fa-hand-o-right"></i> About us</li></a>
                                 <a href="#"><li><i class="fa fa-envelope-o"></i> Contact us</li></a>
                                 <a href="#"><li><i class="fa fa-fast-forward"></i> Videos</li></a>
@@ -42,7 +42,7 @@
                 </div>
                 <div id="main-nav">
                     <div class="wrapper">
-                        <div class="logo"><span>LOGO</span></div>
+                        <div class="logo"><a href="index.php"><img src="img/logo.png"></a></div>
                         <nav class="nav">
                             <ul>
                                 <a href="category.html"><li><i class="fa fa-bullhorn"></i> Alarmes</li></a>
@@ -61,7 +61,7 @@
                 <div id="top-nav-small" >
                     <div class="wrapper">
                         <nav class="nav">
-                            <div class="logo"><span>LOGO</span></div>
+                            <div class="logo"><a href="index.php"><img src="img/logo-small.png"></a></div>
                             <div id="menu-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
                         </nav>
                     </div>
@@ -75,7 +75,7 @@
                                         <input name="q-small" id="q-small" type="search" size="40" placeholder="Search..." />
                                     </form>
                                 </li>
-                                <a href="#"><li><i class="fa fa-bullhorn"></i> Alarmes</li></a>
+                                <a href="category.html"><li><i class="fa fa-bullhorn"></i> Alarmes</li></a>
                                 <a href="#"><li><i class="fa fa-clock-o"></i> Analogo</li></a>
                                 <a href="#"><li><i class="fa fa-hdd-o"></i> Ahd</li></a>
                                 <a href="#"><li><i class="fa fa-chevron-circle-right"></i> Cabos</li></a>
@@ -428,6 +428,16 @@
                     <ul>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Contact us</a></li>
+                        <li><a href="#">TERMS OF USE</a></li>
+                        <li><a href="#">PRIVACY POLICY</a></li>
+                        <li id="social"><span>FOLOW US ON</span>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </footer>
