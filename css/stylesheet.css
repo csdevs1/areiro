@@ -144,7 +144,7 @@ header {
     text-decoration: none;
     color: #000;
     text-shadow: 3px 2px 5px rgba(1, 1, 1, 0.4);
-    margin-right: .433333333em;
+    margin-right: .633333333em;
 }
 
 #main-nav .nav a:last-child {
@@ -528,11 +528,11 @@ a{
 
 @media screen and (min-width: 1820px) {
     #top-nav a {
-        font-size: 1.6em;   
+        font-size: 1.9em;   
     }
     
     #top-nav a:hover {
-        font-size: 1.58em;
+        font-size: 1.88em;
         font-weight: 600;
         text-decoration: none;
         color: #e8e8e8;
@@ -553,6 +553,17 @@ a{
 }
 
 @media screen and (max-width: 1819px) {
+    #top-nav a {
+        font-size: 1.5em;   
+    }
+    
+    #top-nav a:hover {
+        font-size: 1.45em;
+        font-weight: 600;
+        text-decoration: none;
+        color: #e8e8e8;
+        text-shadow: 0px 12px 5px rgba(0, 0, 0, 0.8);
+    }
     
     #main-nav a {
         font-size: 2em;
