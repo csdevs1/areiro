@@ -1,6 +1,6 @@
 /* EREASE LATER */
-* {
-transition: all 1s;
+nav ul li {
+    transition: all 1s;
 }
 
 @charset "UTF-8";
@@ -634,7 +634,7 @@ footer #social ul li {
     }
     
     footer #social {
-        margin-left: 30%;
+        margin-left: 15%;
     }
 }
 
