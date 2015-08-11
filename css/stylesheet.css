@@ -165,7 +165,7 @@ footer {
     background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
     padding-top: 0.902083333%;
     padding-bottom: 0.802083333%;
-    overflow: auto;
+    overflow: hidden;
     margin: 0 auto;
     margin-top: .10625%; /* CHECK: Before it didn't exist */
     width: 100%;
@@ -190,11 +190,19 @@ footer ul li:last-child {
 
 footer a {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.35em;
+    font-size: 1.7em;
     font-weight:bolder;
     text-decoration: none;
     color: #FFF;
     text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+footer a:hover {
+    font-size: 1.65em;
+    font-weight: 600;
+    text-decoration: none;
+    color: #e8e8e8;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
 }
 
 footer #social {
@@ -208,7 +216,7 @@ footer #social {
 }
 
 footer #social ul {
-    width: 90%
+    width: 100%
 }
 
 footer #social ul li {
@@ -220,14 +228,6 @@ footer #social ul li {
     margin-left: 15%;
     margin-right: 50%;
     text-align: center;
-}
-
-footer a:hover {
-    font-size: 1.33em;
-    font-weight: 600;
-    text-decoration: none;
-    color: #e8e8e8;
-    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
 }
 
 /* SLIDER */
