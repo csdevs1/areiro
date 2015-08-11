@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel='stylesheet' href='css/style2.css'>
         <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="icon" type="image/png" href="img/logo-small.png" />
     </head>
     <body>
         <section id="main-wrapper">
