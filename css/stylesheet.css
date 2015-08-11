@@ -195,6 +195,7 @@ footer a {
     text-decoration: none;
     color: #FFF;
     text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.9);
+    transition: all 0.1s ease 0s;
 }
 
 footer a:hover {
@@ -480,10 +481,11 @@ footer #social ul li {
 @media screen and (min-width: 1820px) {
     #top-nav a {
         font-size: 1.9em;   
+        transition: all 0.1s ease 0s;
     }
     
     #top-nav a:hover {
-        font-size: 1.88em;
+        font-size: 1.78em;
         font-weight: 600;
         text-decoration: none;
         color: #e8e8e8;
@@ -492,6 +494,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 2.2em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -506,6 +509,7 @@ footer #social ul li {
 @media screen and (max-width: 1819px) {
     #top-nav a {
         font-size: 1.5em;   
+        transition: all 0.1s ease 0s;
     }
     
     #top-nav a:hover {
@@ -518,6 +522,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 2em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -532,7 +537,8 @@ footer #social ul li {
 @media screen and (max-width: 1680px) {
     
     #top-nav a {
-        font-size: 1.39em;    
+        font-size: 1.39em;  
+        transition: all 0.1s ease 0s;
     }
     
     #top-nav a:hover {
@@ -545,6 +551,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 1.86642em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -560,14 +567,15 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 1.732em;
+        transition: all 0.1s ease 0s;
     }
     
      #main-nav a:hover {
          font-size: 1.7em;
-        font-weight: 600;
-        text-decoration: none;
-        color: #111;
-        text-shadow: 4px 3px 5px rgba(1, 1, 1, 0.7);
+         font-weight: 600;
+         text-decoration: none;
+         color: #111;
+         text-shadow: 4px 3px 5px rgba(1, 1, 1, 0.7);
     }
     
     footer #social {
@@ -577,7 +585,8 @@ footer #social ul li {
 
 @media screen and (max-width: 1446px) {
     #top-nav a {
-        font-size: 1.3em;    
+        font-size: 1.3em;  
+        transition: all 0.1s ease 0s;
     }
     
     #top-nav a:hover {
@@ -590,6 +599,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 1.6em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -608,6 +618,7 @@ footer #social ul li {
 @media screen and (max-width: 1350px) {
     #main-nav a {
         font-size: 1.52em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -627,6 +638,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 1.439em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -641,6 +653,7 @@ footer #social ul li {
 @media screen and (max-width: 1217px) {
     #main-nav a {
         font-size: 1.3864em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -653,12 +666,14 @@ footer #social ul li {
     
     footer #social {
         margin-left: 10%;
+        transition: all 0.1s ease 0s;
     }
 }
 
 @media screen and (max-width: 1176px) {
     #top-nav a {
-        font-size: 0.9999em;    
+        font-size: 0.9999em;
+        transition: all 0.1s ease 0s;
     }
     
     #top-nav a:hover {
@@ -672,6 +687,7 @@ footer #social ul li {
     
     #main-nav a {
         font-size: 1.32em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -686,6 +702,7 @@ footer #social ul li {
 @media screen and (max-width: 1126px) {
     #main-nav a {
         font-size: 1.25em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -700,6 +717,7 @@ footer #social ul li {
 @media screen and (max-width: 1070px) {
     #main-nav a {
         font-size: 1.15em;
+        transition: all 0.1s ease 0s;
     }
     
     #main-nav a:hover {
@@ -901,6 +919,7 @@ footer #social ul li {
         font-size: 1.1875em;
         color: #000;
         font-weight: 600;
+        transition: all 0.1s ease 0s;
     }
     
     .nav a:hover {
