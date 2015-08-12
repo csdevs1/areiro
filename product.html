@@ -61,15 +61,21 @@
                 
                 <div id="top-nav-small" >
                     <div class="wrapper">
-                        <nav class="nav">
-                            <div class="logo"><a href="index.php"><img src="img/logo-small.png"></a></div>
-                            <div id="menu-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <div class="logo"><a href="index.php"><img src="img/logo.png"></a></div>
+                                </li>
+                                <li>
+                                    <div id="menu-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                 </div>
                 <div id="main-nav-small">
                     <div class="wrapper">
-                        <nav class="nav">
+                        <nav class="nav-main">
                             <ul>
                                 <li>
                                     <form method="get" action="/search" id="search">

@@ -1,21 +1,17 @@
 // Carousel Auto-Cycle
 ready = (function() {
-      $('.carousel').carousel({
-          interval: 6000
-      })
-      
-      $("#main-nav-small").hide();
-      $("#menu-bars").click(function(){
-          if($("#main-nav-small").css('display') == 'none'){
-              $("#main-nav-small").show(1000);
-          } else {
-              $("#main-nav-small").hide(1000);
-          }
-      })
-  });
+    $('.carousel').carousel({
+        interval: 6000
+    });   
+    
+    $("#main-nav-small").hide();  
+    $("#menu-bars").click(function(){
+        $("#main-nav-small").slideToggle('slow');
+    });
+});
 
 window.onresize = function(event) {
-    if( $(window).width() >= 985) {
+    if( $(window).width() >= 978) {
           $("#top-nav").show();
     } else {
         $("#top-nav").hide();
@@ -30,7 +26,7 @@ scroll = (function() {
         $("#top-nav").hide(1000);
     } else{
         $('#main-nav').removeClass("main-nav");
-        if( $(window).width() >= 985)
+        if( $(window).width() >= 978)
         {
            $("#top-nav").show(1000);
         } else {
