@@ -11,11 +11,23 @@ ready = (function() {
         $("#q-icon").show();  
     });
     
-    $("#q-small").css('display:none');  
+    $("#q-small").hide();  
     $("#q-icon").click(function(){
         $("#q-small").show(1000);
         $("#q-icon").hide();  
     });
+});
+
+$(document).mouseup(function (e)
+{
+    var container = $("#q-small");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+        $("#q-icon").show();  
+    }
 });
 
 window.onresize = function(event) {
