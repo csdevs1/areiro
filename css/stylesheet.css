@@ -790,8 +790,6 @@ footer #social ul li {
     }
 }
 
-
-
 @media screen and (min-width: 994px) {
     .wrapper {
         max-width: 80.5%;
@@ -952,6 +950,7 @@ footer #social ul li {
     }
     
     #top-nav-small ul li:nth-child(1){
+        margin-left: 22.5%;
         max-width: 45%;
     }
     
@@ -969,6 +968,7 @@ footer #social ul li {
         margin-left: 250%;
         margin-right: auto;
         width: 5%;
+        float: left;
     }
     
     #menu-bars i {
@@ -1009,10 +1009,10 @@ footer #social ul li {
     .nav-main a {
         text-decoration: none;
         font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.1875em;
         color: #000;
         font-weight: 600;
         transition: all 0.1s ease 0s;
+        margin-right: 0.1%;
     }
     
     .nav-main a:hover {
@@ -1193,7 +1193,7 @@ footer #social ul li {
 
 @media screen and (max-width: 568px) and (max-height: 368px) {
     .slider {
-        margin-top: -28.479166667%;
+        margin-top: 58.479166667%;
     }
 }
 
@@ -1327,6 +1327,10 @@ footer #social ul li {
 @media screen and (max-width: 320px) and (max-height: 568px) {
     .slider {
         margin-top: 150.479166667%;
+    }
+    
+    .cb-slideshow, .cb-slideshow:after {
+        height: 34.010416667em;
     }
 }
 
