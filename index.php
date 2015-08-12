@@ -77,11 +77,6 @@
                     <div class="wrapper">
                         <nav class="nav-main">
                             <ul>
-                                <li>
-                                    <form method="get" action="/search" id="search">
-                                        <input name="q-small" id="q-small" type="search" size="40" placeholder="Search..." />
-                                    </form>
-                                </li>
                                 <a href="category.html"><li><i class="fa fa-bullhorn"></i> Alarmes</li></a>
                                 <a href="#"><li><i class="fa fa-clock-o"></i> Analogo</li></a>
                                 <a href="#"><li><i class="fa fa-hdd-o"></i> Ahd</li></a>
@@ -89,7 +84,13 @@
                                 <a href="#"><li><i class="fa fa-tags"></i> Accesorios</li></a>
                                 <a href="#"><li><i class="fa fa-eye"></i> Espião</li></a>
                                 <a href="#"><li><i class="fa fa-keyboard-o"></i> Informatica</li></a>
-                                <a href="#"><li><i class="fa fa-money"></i> Liquidação</li></a>      
+                                <a href="#"><li><i class="fa fa-money"></i> Liquidação</li></a>
+                                <a id="q-icon"><li><i class="fa fa-search"></i>SEARCH</li></a>
+                                <li>
+                                    <form method="get" action="/search" id="search">
+                                        <input name="q-small" id="q-small" type="search" size="40" placeholder="Search..." />
+                                    </form>
+                                </li>
                             </ul>
                         </nav>
                     </div>
