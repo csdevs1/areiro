@@ -863,6 +863,10 @@ footer #social ul li {
         position: absolute;
     }
     
+    .container-fluid{
+        width: 100%;
+    }
+    
     /* MAIN NAV SMALL */
 
     #main-nav-small {
