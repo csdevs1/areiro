@@ -7,6 +7,14 @@ ready = (function() {
     $("#main-nav-small").hide();  
     $("#menu-bars").click(function(){
         $("#main-nav-small").slideToggle('slow');
+        $("#q-small").hide(); 
+        $("#q-icon").show();  
+    });
+    
+    $("#q-small").css('display:none');  
+    $("#q-icon").click(function(){
+        $("#q-small").show(1000);
+        $("#q-icon").hide();  
     });
 });
 
