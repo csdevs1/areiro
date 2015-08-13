@@ -60,18 +60,14 @@
                 </div>
                 
                 <div id="top-nav-small" >
-                    <div class="wrapper">
-                        <nav>
-                            <ul>
-                                <li>
-                                    <div class="logo"><a href="index.php"><img src="img/logo.png"></a></div>
-                                </li>
-                                <li>
-                                    <div id="menu-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <nav>
+                        <div id="q-icon"><a href="#"><i class="fa fa-search"></i>SEARCH</a></div>
+                        <form method="get" action="/search" id="search">
+                            <div><input name="q-small" id="q-small" type="search" size="40" placeholder="Search..." /></div>
+                        </form>
+                        <div class="logo"><a href="index.php"><img src="img/logo.png"></a></div>
+                        <div id="menu-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
+                    </nav>
                 </div>
                 <div id="main-nav-small">
                     <div class="wrapper">
@@ -85,12 +81,6 @@
                                 <a href="#"><li><i class="fa fa-eye"></i> Espião</li></a>
                                 <a href="#"><li><i class="fa fa-keyboard-o"></i> Informatica</li></a>
                                 <a href="#"><li><i class="fa fa-money"></i> Liquidação</li></a>
-                                <a id="q-icon" href="#"><li><i class="fa fa-search"></i>SEARCH</li></a>
-                                <li>
-                                    <form method="get" action="/search" id="search">
-                                        <input name="q-small" id="q-small" type="search" size="40" placeholder="Search..." />
-                                    </form>
-                                </li>
                             </ul>
                         </nav>
                     </div>
