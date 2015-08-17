@@ -2,10 +2,10 @@
 .cb-slideshow:after {
     position: fixed;
     width: 100%;
-    height: 60.010416667em;
+    height: 69.010416667em;
     margin: 0 auto;
     width: 100%;
-    top: 11.25%; /* CHECK: Before it was 0 */
+    top: 1.25%; /* CHECK: Before it was 0 */
     left: 0px;
     z-index: 0;
 }
@@ -47,6 +47,10 @@
 .cb-slideshow li div h3 {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
     font-size: 160px;
+    -webkit-text-stroke-width: 0.01em;
+    -webkit-text-stroke-color: #444;
+    text-stroke-width: 0.01em;
+    text-stroke-color: #000;
     padding: 0 30px;
     line-height: 120px;
     color: rgba(255,255,255,0.8);
