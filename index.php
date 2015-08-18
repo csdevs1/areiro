@@ -89,16 +89,6 @@
                     </ul>
                 </section>
             </div>
-            
-           <!-- <div class="contact">
-                <div class="wrapper">
-                    <span>CONTACT US</span>
-                    <section>
-                        <a class="icon facebook" target="_blank" href="#"><span class="zocial-facebook"></span></a>
-                        <a class="icon twitter" target="_blank" href="#"><span class="zocial-twitter"></span></a>
-                    </section>
-                </div>
-            </div> -->
             <div class="content" id="content">
                 <div class="space">
                     <a href="#content"><span><i class="fa fa-arrow-circle-down"></i></span></a>
